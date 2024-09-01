@@ -8,7 +8,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const validPassword = "sutekinasaba55"; // 正しいパスワード
 
     if (username === validUsername && password === validPassword) {
-        window.location.href = "https://example.com"; // リダイレクトするURL
+        window.location.href = "https://sites.google.com/view/moderator51424049205jssjfj7bde/%E3%83%9B%E3%83%BC%E3%83%A0"; // リダイレクトするURL
     } else {
         document.getElementById("error").textContent = "ユーザーIDまたはパスワードが間違っています。";
     }
