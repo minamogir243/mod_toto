@@ -10,6 +10,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (username === validUsername && password === validPassword) {
         window.location.href = "https://sites.google.com/view/moderator51424049205jssjfj7bde/home"; // リダイレクトするURL
     } else {
-        document.getElementById("error").textContent = "ユーザーIDまたはパスワードが間違っています。";
+        document.getElementById("error").textContent = "ユーザーIDまたはパスワードが間違っています。もう一度お確かめの上、再度お試しください";
     }
 });
